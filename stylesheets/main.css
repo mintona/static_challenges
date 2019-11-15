@@ -1,0 +1,69 @@
+header {
+  background-color:hsl(0, 100%, 30%);
+  color:white;
+  padding:8px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+feature {
+  float: left;
+  width: 50%;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  background-color:#3c3c3c;
+  color: white;
+  padding: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+other {
+  float: right;
+  width: 40%;
+  background-color: white;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color:#3c3c3c;
+  color:white;
+  padding:20px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.875em;
+}
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 2.5em;
+}
+
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.875em;
+}
+
+h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+a:link {
+  color: white;
+}
